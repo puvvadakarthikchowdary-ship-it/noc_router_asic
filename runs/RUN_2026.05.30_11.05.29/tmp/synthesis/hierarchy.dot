@@ -1,0 +1,34 @@
+digraph "noc_top" {
+label="noc_top";
+rankdir="LR";
+remincross=true;
+n3 [ shape=diamond, label="packet", color="black", fontcolor="black" ];
+n4 [ shape=diamond, label="data_out", color="black", fontcolor="black" ];
+n5 [ shape=diamond, label="port", color="black", fontcolor="black" ];
+n6 [ shape=diamond, label="counter", color="black", fontcolor="black" ];
+n7 [ shape=octagon, label="debug_out", color="black", fontcolor="black" ];
+n8 [ shape=octagon, label="rst", color="black", fontcolor="black" ];
+n9 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+c10 [ shape=record, label="{{<p3> packet}|r1\nrouter|{<p4> data_out|<p5> port}}",  ];
+v0 [ label="1" ];
+c14 [ shape=record, label="{{<p11> A|<p12> B}|$2\n$add|{<p13> Y}}",  ];
+x2 [ shape=record, style=rounded, label="<s0> 9:0 - 9:0 ", color="black", fontcolor="black" ];
+p1 [shape=box, style=rounded, label="PROC $1\n/openlane/designs/noc_router/src/noc_top.v:15.1-20.4"];
+x3 [shape=box, style=rounded, label="BUF", ];
+x4 [shape=box, style=rounded, label="BUF", ];
+c14:p13:e -> x2:s0:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+x3:e -> n3:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n3:e -> c10:p3:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+c10:p4:e -> n4:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n4:e -> x4:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+c10:p5:e -> n5:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+p1:e -> n6:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n6:e -> c14:p11:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n6:e -> p1:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n6:e -> x3:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+x4:e -> n7:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n8:e -> p1:w [color="black", fontcolor="black", label=""];
+n9:e -> p1:w [color="black", fontcolor="black", label=""];
+v0:e -> c14:p12:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+x2:e -> p1:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+}

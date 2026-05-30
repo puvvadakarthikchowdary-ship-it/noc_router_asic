@@ -1,0 +1,3 @@
+Warning: Replacing memory \mem with list of registers. See /openlane/designs/noc_router/src/fifo.v:27
+/openlane/designs/noc_router/src/tb_noc.v:0: Warning: Ignoring call to system task $dumpfile.
+/openlane/designs/noc_router/src/tb_noc.v:0: Warning: Ignoring call to system task $dumpvars.

@@ -1,0 +1,1 @@
+/openlane/designs/noc_router/src/tb_noc.v:0: ERROR: System task `$finish' executed.

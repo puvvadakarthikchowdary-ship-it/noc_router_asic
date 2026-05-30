@@ -1,0 +1,30 @@
+Sat May 30 11:02:01 UTC 2026 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/lefutil.py get_metal_layers -o /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/layers.list /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
+
+Sat May 30 11:02:02 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/merged.nom.lef -i /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef {/home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+
+Sat May 30 11:02:02 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/merged.min.lef -i /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef {/home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+
+Sat May 30 11:02:02 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/merged.max.lef -i /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef {/home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+
+Sat May 30 11:02:02 UTC 2026 - Executing "python3 /openlane/scripts/mergeLib.py --output /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/synthesis/merged.lib --name sky130A_merged /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Sat May 30 11:02:03 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/synthesis/trimmed.lib.exclude.list --output /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/synthesis/trimmed.lib /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/synthesis/merged.lib"
+
+Sat May 30 11:02:04 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/cts/cts.lib.exclude.list --output /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/cts/cts.lib /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Sat May 30 11:02:05 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/cts/cts-fastest.lib.exclude.list --output /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/cts/cts-fastest.lib /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib"
+
+Sat May 30 11:02:05 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/cts/cts-slowest.lib.exclude.list --output /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/cts/cts-slowest.lib /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib"
+
+Sat May 30 11:02:06 UTC 2026 - Executing "python3 /openlane/scripts/new_tracks.py -i /home/puvvadakarthikchowdary/.volare/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/routing/config.tracks"
+
+Sat May 30 11:02:06 UTC 2026 - Executing "echo {OpenLane ff5509f65b17bfa4068d5336495ab1718987ff69} > /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/OPENLANE_COMMIT"
+
+Sat May 30 11:02:06 UTC 2026 - Executing "bash -c {verilator  --lint-only  -Wall  --Wno-DECLFILENAME  --top-module noc_top  /openlane/designs/noc_router/src/noc_top.v /openlane/designs/noc_router/src/fifo.v /openlane/designs/noc_router/src/router.v /openlane/designs/noc_router/src/arbiter.v -Wno-fatal --relative-includes |& tee /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/logs/synthesis/linter.log /dev/null}"
+
+Sat May 30 11:02:07 UTC 2026 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/puvvadakarthikchowdary/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Sat May 30 11:02:07 UTC 2026 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/synthesis/trimmed.lib > /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/tmp/synthesis/1-trimmed.no_pg.lib"
+
+Sat May 30 11:02:08 UTC 2026 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl |& tee /dev/null /openlane/designs/noc_router/runs/RUN_2026.05.30_11.02.00/logs/synthesis/1-synthesis.log"
+

@@ -1,0 +1,11 @@
+Warning: Replacing memory \mem with list of registers. See /openlane/designs/noc_router/src/fifo.v:27
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire noc_top.\debug_out [7] is used but has no driver.
+Warning: Wire noc_top.\debug_out [6] is used but has no driver.
+Warning: Wire noc_top.\debug_out [5] is used but has no driver.
+Warning: Wire noc_top.\debug_out [4] is used but has no driver.
+Warning: Wire noc_top.\debug_out [3] is used but has no driver.
+Warning: Wire noc_top.\debug_out [2] is used but has no driver.
+Warning: Wire noc_top.\debug_out [1] is used but has no driver.
+Warning: Wire noc_top.\debug_out [0] is used but has no driver.
+Warnings: 9 unique messages, 9 total

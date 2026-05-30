@@ -1,0 +1,1 @@
+Warning: Replacing memory \mem with list of registers. See /openlane/designs/noc_router/src/fifo.v:27

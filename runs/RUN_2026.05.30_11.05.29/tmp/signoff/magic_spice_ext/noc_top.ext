@@ -1,0 +1,780 @@
+timestamp 1780139312
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_sc_hd__fill_2 FILLER_0_1_3 1 0 1380 0 -1 3264
+use sky130_fd_sc_hd__decap_3 PHY_0 1 0 1104 0 1 2176
+use sky130_fd_sc_hd__decap_3 PHY_2 1 0 1104 0 -1 3264
+use sky130_fd_sc_hd__or2_1 _27_ -1 0 1840 0 1 2176
+use sky130_fd_sc_hd__inv_2 _42_ -1 0 1840 0 -1 3264
+use sky130_fd_sc_hd__dfrtp_1 _53_ 1 0 1840 0 -1 3264
+use sky130_fd_sc_hd__clkbuf_16 clkbuf_1_0__f_clk -1 0 3680 0 1 2176
+use sky130_fd_sc_hd__decap_4 FILLER_0_1_28 1 0 3680 0 -1 3264
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_20 1 0 3680 0 1 2176
+use sky130_fd_sc_hd__clkbuf_1 _29_ 1 0 4876 0 1 2176
+use sky130_fd_sc_hd__dfrtp_1 _51_ 1 0 4048 0 -1 3264
+use sky130_fd_sc_hd__clkbuf_4 output2 -1 0 4876 0 1 2176
+use sky130_fd_sc_hd__clkbuf_4 output7 -1 0 4324 0 1 2176
+use sky130_fd_sc_hd__fill_1 FILLER_0_0_57 1 0 6348 0 1 2176
+use sky130_fd_sc_hd__decap_4 FILLER_0_1_52 1 0 5888 0 -1 3264
+use sky130_fd_sc_hd__fill_1 FILLER_0_1_57 1 0 6348 0 -1 3264
+use sky130_fd_sc_hd__decap_3 PHY_1 -1 0 6716 0 1 2176
+use sky130_fd_sc_hd__decap_3 PHY_3 -1 0 6716 0 -1 3264
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_21 1 0 6256 0 1 2176
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_22 1 0 6256 0 -1 3264
+use sky130_fd_sc_hd__clkbuf_4 input1 -1 0 6256 0 1 2176
+use sky130_fd_sc_hd__clkbuf_4 output4 1 0 5152 0 1 2176
+use sky130_fd_sc_hd__fill_2 FILLER_0_2_3 1 0 1380 0 1 3264
+use sky130_fd_sc_hd__decap_3 PHY_4 1 0 1104 0 1 3264
+use sky130_fd_sc_hd__dfrtp_1 _50_ 1 0 1564 0 1 3264
+use sky130_fd_sc_hd__decap_3 FILLER_0_2_25 1 0 3404 0 1 3264
+use sky130_fd_sc_hd__fill_2 FILLER_0_2_29 1 0 3772 0 1 3264
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_23 1 0 3680 0 1 3264
+use sky130_fd_sc_hd__xnor2_1 _30_ 1 0 3956 0 1 3264
+use sky130_fd_sc_hd__dfrtp_1 _52_ 1 0 4600 0 1 3264
+use sky130_fd_sc_hd__decap_3 PHY_5 -1 0 6716 0 1 3264
+use sky130_fd_sc_hd__decap_3 PHY_6 1 0 1104 0 -1 4352
+use sky130_fd_sc_hd__inv_2 _25_ -1 0 2208 0 -1 4352
+use sky130_fd_sc_hd__clkbuf_1 _34_ 1 0 2208 0 -1 4352
+use sky130_fd_sc_hd__inv_2 _45_ 1 0 2484 0 -1 4352
+use sky130_fd_sc_hd__dlygate4sd3_1 hold1 -1 0 3496 0 -1 4352
+use sky130_fd_sc_hd__clkbuf_4 output5 -1 0 1932 0 -1 4352
+use sky130_fd_sc_hd__and4_2 _31_ 1 0 4692 0 -1 4352
+use sky130_fd_sc_hd__a31o_1 _32_ 1 0 4048 0 -1 4352
+use sky130_fd_sc_hd__and2b_1 _33_ -1 0 4048 0 -1 4352
+use sky130_fd_sc_hd__fill_1 FILLER_0_3_55 1 0 6164 0 -1 4352
+use sky130_fd_sc_hd__fill_1 FILLER_0_3_57 1 0 6348 0 -1 4352
+use sky130_fd_sc_hd__decap_3 PHY_7 -1 0 6716 0 -1 4352
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_24 1 0 6256 0 -1 4352
+use sky130_fd_sc_hd__dlygate4sd3_1 hold4 -1 0 6164 0 -1 4352
+use sky130_fd_sc_hd__decap_8 FILLER_0_4_15 1 0 2484 0 1 4352
+use sky130_ef_sc_hd__decap_12 FILLER_0_4_3 1 0 1380 0 1 4352
+use sky130_fd_sc_hd__decap_3 PHY_8 1 0 1104 0 1 4352
+use sky130_fd_sc_hd__fill_2 FILLER_0_4_23 1 0 3220 0 1 4352
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_25 1 0 3680 0 1 4352
+use sky130_fd_sc_hd__nand2_1 _26_ 1 0 3404 0 1 4352
+use sky130_fd_sc_hd__clkbuf_16 clkbuf_0_clk -1 0 5612 0 1 4352
+use sky130_fd_sc_hd__decap_3 FILLER_0_4_55 1 0 6164 0 1 4352
+use sky130_fd_sc_hd__decap_3 PHY_9 -1 0 6716 0 1 4352
+use sky130_fd_sc_hd__inv_2 _43_ -1 0 5888 0 1 4352
+use sky130_fd_sc_hd__inv_2 _44_ 1 0 5888 0 1 4352
+use sky130_fd_sc_hd__fill_1 FILLER_0_5_15 1 0 2484 0 -1 5440
+use sky130_ef_sc_hd__decap_12 FILLER_0_5_3 1 0 1380 0 -1 5440
+use sky130_fd_sc_hd__decap_3 PHY_10 1 0 1104 0 -1 5440
+use sky130_fd_sc_hd__clkbuf_16 clkbuf_1_1__f_clk -1 0 4416 0 -1 5440
+use sky130_fd_sc_hd__decap_3 FILLER_0_5_36 1 0 4416 0 -1 5440
+use sky130_fd_sc_hd__and2_1 _28_ 1 0 4692 0 -1 5440
+use sky130_fd_sc_hd__decap_3 FILLER_0_5_44 1 0 5152 0 -1 5440
+use sky130_fd_sc_hd__fill_1 FILLER_0_5_57 1 0 6348 0 -1 5440
+use sky130_fd_sc_hd__decap_3 PHY_11 -1 0 6716 0 -1 5440
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_26 1 0 6256 0 -1 5440
+use sky130_fd_sc_hd__inv_2 _47_ -1 0 5704 0 -1 5440
+use sky130_fd_sc_hd__clkbuf_4 output6 1 0 5704 0 -1 5440
+use sky130_fd_sc_hd__fill_1 FILLER_0_6_3 1 0 1380 0 1 5440
+use sky130_fd_sc_hd__decap_3 PHY_12 1 0 1104 0 1 5440
+use sky130_fd_sc_hd__decap_3 PHY_14 1 0 1104 0 -1 6528
+use sky130_fd_sc_hd__dfrtp_1 _56_ 1 0 2116 0 -1 6528
+use sky130_fd_sc_hd__dfrtp_1 _57_ 1 0 1472 0 1 5440
+use sky130_fd_sc_hd__dlygate4sd3_1 hold2 -1 0 2116 0 -1 6528
+use sky130_fd_sc_hd__fill_1 FILLER_0_6_27 1 0 3588 0 1 5440
+use sky130_fd_sc_hd__fill_1 FILLER_0_6_29 1 0 3772 0 1 5440
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_27 1 0 3680 0 1 5440
+use sky130_fd_sc_hd__and3_1 _36_ -1 0 4416 0 -1 6528
+use sky130_fd_sc_hd__inv_2 _48_ -1 0 3588 0 1 5440
+use sky130_fd_sc_hd__dfrtp_1 _54_ 1 0 4416 0 -1 6528
+use sky130_fd_sc_hd__dfrtp_1 _55_ 1 0 3864 0 1 5440
+use sky130_fd_sc_hd__fill_1 FILLER_0_7_57 1 0 6348 0 -1 6528
+use sky130_fd_sc_hd__decap_3 PHY_13 -1 0 6716 0 1 5440
+use sky130_fd_sc_hd__decap_3 PHY_15 -1 0 6716 0 -1 6528
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_28 1 0 6256 0 -1 6528
+use sky130_fd_sc_hd__dlygate4sd3_1 hold6 -1 0 6440 0 1 5440
+use sky130_fd_sc_hd__fill_1 FILLER_0_8_3 1 0 1380 0 1 6528
+use sky130_fd_sc_hd__decap_3 PHY_16 1 0 1104 0 1 6528
+use sky130_fd_sc_hd__xor2_1 _39_ -1 0 2760 0 1 6528
+use sky130_fd_sc_hd__xor2_1 _41_ 1 0 1472 0 1 6528
+use sky130_fd_sc_hd__inv_2 _49_ -1 0 3036 0 1 6528
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_29 1 0 3680 0 1 6528
+use sky130_fd_sc_hd__xor2_1 _35_ -1 0 5152 0 1 6528
+use sky130_fd_sc_hd__and4_1 _40_ -1 0 3680 0 1 6528
+use sky130_fd_sc_hd__dlygate4sd3_1 hold3 -1 0 4508 0 1 6528
+use sky130_fd_sc_hd__fill_1 FILLER_0_8_44 1 0 5152 0 1 6528
+use sky130_fd_sc_hd__fill_2 FILLER_0_8_56 1 0 6256 0 1 6528
+use sky130_fd_sc_hd__decap_3 PHY_17 -1 0 6716 0 1 6528
+use sky130_fd_sc_hd__inv_2 _46_ 1 0 5980 0 1 6528
+use sky130_fd_sc_hd__dlygate4sd3_1 hold5 -1 0 5980 0 1 6528
+use sky130_fd_sc_hd__decap_8 FILLER_0_9_19 1 0 2852 0 -1 7616
+use sky130_fd_sc_hd__decap_4 FILLER_0_9_3 1 0 1380 0 -1 7616
+use sky130_fd_sc_hd__decap_3 PHY_18 1 0 1104 0 -1 7616
+use sky130_fd_sc_hd__clkbuf_4 output8 -1 0 2300 0 -1 7616
+use sky130_fd_sc_hd__clkbuf_4 output9 -1 0 2852 0 -1 7616
+use sky130_fd_sc_hd__fill_1 FILLER_0_9_27 1 0 3588 0 -1 7616
+use sky130_fd_sc_hd__decap_8 FILLER_0_9_32 1 0 4048 0 -1 7616
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_30 1 0 3680 0 -1 7616
+use sky130_fd_sc_hd__nor2_1 _38_ -1 0 4048 0 -1 7616
+use sky130_fd_sc_hd__buf_2 output3 -1 0 5152 0 -1 7616
+use sky130_fd_sc_hd__decap_8 FILLER_0_9_48 1 0 5520 0 -1 7616
+use sky130_fd_sc_hd__fill_1 FILLER_0_9_57 1 0 6348 0 -1 7616
+use sky130_fd_sc_hd__decap_3 PHY_19 -1 0 6716 0 -1 7616
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_31 1 0 6256 0 -1 7616
+use sky130_fd_sc_hd__a21oi_1 _37_ -1 0 5520 0 -1 7616
+port "VPWR" 1 1056 6772 6764 7092 m5
+port "VPWR" 1 1056 5413 6764 5733 m5
+port "VPWR" 1 1056 4054 6764 4374 m5
+port "VPWR" 1 1056 2695 6764 3015 m5
+port "VPWR" 1 5854 2128 6174 7664 m4
+port "VPWR" 1 4451 2128 4771 7664 m4
+port "VPWR" 1 3048 2128 3368 7664 m4
+port "VPWR" 1 1645 2128 1965 7664 m4
+port "VGND" 0 1056 7432 6834 7752 m5
+port "VGND" 0 1056 6073 6834 6393 m5
+port "VGND" 0 1056 4714 6834 5034 m5
+port "VGND" 0 1056 3355 6834 3675 m5
+port "VGND" 0 6514 2128 6834 7752 m4
+port "VGND" 0 5111 2128 5431 7752 m4
+port "VGND" 0 3708 2128 4028 7752 m4
+port "VGND" 0 2305 2128 2625 7752 m4
+port "rst" 11 7041 2048 7841 2168 m3
+port "debug_out[2]" 5 7102 0 7158 800 m2
+port "debug_out[5]" 8 3238 0 3294 800 m2
+port "debug_out[0]" 3 18 0 74 800 m2
+port "debug_out[3]" 6 0 3408 800 3528 m3
+port "clk" 2 7746 9185 7802 9985 m2
+port "debug_out[4]" 7 7041 6128 7841 6248 m3
+port "debug_out[6]" 9 0 7488 800 7608 m3
+port "debug_out[1]" 4 4526 9185 4582 9985 m2
+port "debug_out[7]" 10 662 9185 718 9985 m2
+node "VPWR" 0 0 1645 2128 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VGND" 0 0 2305 2128 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "rst" 0 0 7041 2048 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "debug_out[2]" 0 0 7102 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "debug_out[5]" 0 0 3238 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "debug_out[0]" 0 0 18 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_01_" 0 0 4353 2941 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_08_" 0 0 1685 3145 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_02_" 0 0 4537 3349 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "clknet_1_0__leaf_clk" 0 0 1593 3553 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net13" 0 0 4169 3485 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_11_" 0 0 2605 3893 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_03_" 0 0 2145 3077 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_00_" 0 0 1856 3689 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "debug_out[3]" 0 0 0 3408 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_20_" 0 0 3709 3961 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net4" 0 0 4261 4097 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_21_" 0 0 2421 4097 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net10" 0 0 2145 4097 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net5" 0 0 1777 4097 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_10_" 0 0 6009 4437 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_09_" 0 0 5733 4437 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "clk" 0 0 7746 9185 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net2" 0 0 1593 2397 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_18_" 0 0 5089 2397 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_16_" 0 0 3525 4777 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_17_" 0 0 1409 2533 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "clknet_0_clk" 0 0 3617 2397 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "debug_out[4]" 0 0 7041 6128 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_13_" 0 0 5549 5321 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_14_" 0 0 3433 5865 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "clknet_1_1__leaf_clk" 0 0 1501 5729 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_12_" 0 0 6101 6613 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net7" 0 0 3433 6613 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_15_" 0 0 2881 6613 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net6" 0 0 3617 6681 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net1" 0 0 1777 3009 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net11" 0 0 1409 6409 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_04_" 0 0 4537 6817 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net12" 0 0 2513 6749 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_06_" 0 0 2145 6817 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_07_" 0 0 1777 5593 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_24_" 0 0 1777 6817 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_05_" 0 0 3985 7157 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net15" 0 0 5457 7361 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net14" 0 0 4905 6749 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_19_" 0 0 3249 6681 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net3" 0 0 1777 2329 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_23_" 0 0 3985 7361 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "_22_" 0 0 2421 6817 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net9" 0 0 2053 6273 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "net8" 0 0 2145 7361 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "debug_out[6]" 0 0 0 7488 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "debug_out[1]" 0 0 4526 9185 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "debug_out[7]" 0 0 662 9185 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "TAP_31/VGND" "PHY_19/VNB" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "PHY_19/VNB" "PHY_19/VGND"
+merge "PHY_19/VGND" "FILLER_0_9_57/VNB"
+merge "FILLER_0_9_57/VNB" "FILLER_0_9_57/VGND"
+merge "FILLER_0_9_57/VGND" "_37_/VNB"
+merge "_37_/VNB" "_37_/VGND"
+merge "_37_/VGND" "FILLER_0_9_48/VNB"
+merge "FILLER_0_9_48/VNB" "FILLER_0_9_48/VGND"
+merge "FILLER_0_9_48/VGND" "output3/VNB"
+merge "output3/VNB" "output3/VGND"
+merge "output3/VGND" "_38_/VNB"
+merge "_38_/VNB" "_38_/VGND"
+merge "_38_/VGND" "TAP_30/VGND"
+merge "TAP_30/VGND" "FILLER_0_9_32/VNB"
+merge "FILLER_0_9_32/VNB" "FILLER_0_9_32/VGND"
+merge "FILLER_0_9_32/VGND" "FILLER_0_9_27/VNB"
+merge "FILLER_0_9_27/VNB" "FILLER_0_9_27/VGND"
+merge "FILLER_0_9_27/VGND" "FILLER_0_9_19/VNB"
+merge "FILLER_0_9_19/VNB" "FILLER_0_9_19/VGND"
+merge "FILLER_0_9_19/VGND" "output9/VNB"
+merge "output9/VNB" "output9/VGND"
+merge "output9/VGND" "output8/VNB"
+merge "output8/VNB" "output8/VGND"
+merge "output8/VGND" "PHY_18/VNB"
+merge "PHY_18/VNB" "PHY_18/VGND"
+merge "PHY_18/VGND" "FILLER_0_9_3/VNB"
+merge "FILLER_0_9_3/VNB" "FILLER_0_9_3/VGND"
+merge "FILLER_0_9_3/VGND" "_46_/VNB"
+merge "_46_/VNB" "_46_/VGND"
+merge "_46_/VGND" "PHY_17/VNB"
+merge "PHY_17/VNB" "PHY_17/VGND"
+merge "PHY_17/VGND" "FILLER_0_8_56/VNB"
+merge "FILLER_0_8_56/VNB" "FILLER_0_8_56/VGND"
+merge "FILLER_0_8_56/VGND" "TAP_28/VGND"
+merge "TAP_28/VGND" "PHY_15/VNB"
+merge "PHY_15/VNB" "PHY_15/VGND"
+merge "PHY_15/VGND" "FILLER_0_7_57/VNB"
+merge "FILLER_0_7_57/VNB" "FILLER_0_7_57/VGND"
+merge "FILLER_0_7_57/VGND" "hold5/VNB"
+merge "hold5/VNB" "hold5/VGND"
+merge "hold5/VGND" "FILLER_0_8_44/VNB"
+merge "FILLER_0_8_44/VNB" "FILLER_0_8_44/VGND"
+merge "FILLER_0_8_44/VGND" "_35_/VNB"
+merge "_35_/VNB" "_35_/VGND"
+merge "_35_/VGND" "_54_/VNB"
+merge "_54_/VNB" "_54_/VGND"
+merge "_54_/VGND" "hold3/VNB"
+merge "hold3/VNB" "hold3/VGND"
+merge "hold3/VGND" "_40_/VNB"
+merge "_40_/VNB" "_40_/VGND"
+merge "_40_/VGND" "TAP_29/VGND"
+merge "TAP_29/VGND" "_36_/VNB"
+merge "_36_/VNB" "_36_/VGND"
+merge "_36_/VGND" "_49_/VNB"
+merge "_49_/VNB" "_49_/VGND"
+merge "_49_/VGND" "_41_/VNB"
+merge "_41_/VNB" "_41_/VGND"
+merge "_41_/VGND" "_39_/VNB"
+merge "_39_/VNB" "_39_/VGND"
+merge "_39_/VGND" "_56_/VNB"
+merge "_56_/VNB" "_56_/VGND"
+merge "_56_/VGND" "PHY_16/VNB"
+merge "PHY_16/VNB" "PHY_16/VGND"
+merge "PHY_16/VGND" "FILLER_0_8_3/VNB"
+merge "FILLER_0_8_3/VNB" "FILLER_0_8_3/VGND"
+merge "FILLER_0_8_3/VGND" "hold2/VNB"
+merge "hold2/VNB" "hold2/VGND"
+merge "hold2/VGND" "PHY_14/VNB"
+merge "PHY_14/VNB" "PHY_14/VGND"
+merge "PHY_14/VGND" "hold6/VNB"
+merge "hold6/VNB" "hold6/VGND"
+merge "hold6/VGND" "PHY_13/VNB"
+merge "PHY_13/VNB" "PHY_13/VGND"
+merge "PHY_13/VGND" "output6/VNB"
+merge "output6/VNB" "output6/VGND"
+merge "output6/VGND" "TAP_26/VGND"
+merge "TAP_26/VGND" "PHY_11/VNB"
+merge "PHY_11/VNB" "PHY_11/VGND"
+merge "PHY_11/VGND" "FILLER_0_5_57/VNB"
+merge "FILLER_0_5_57/VNB" "FILLER_0_5_57/VGND"
+merge "FILLER_0_5_57/VGND" "_44_/VNB"
+merge "_44_/VNB" "_44_/VGND"
+merge "_44_/VGND" "_43_/VGND"
+merge "_43_/VGND" "PHY_9/VNB"
+merge "PHY_9/VNB" "PHY_9/VGND"
+merge "PHY_9/VGND" "FILLER_0_4_55/VNB"
+merge "FILLER_0_4_55/VNB" "FILLER_0_4_55/VGND"
+merge "FILLER_0_4_55/VGND" "PHY_7/VGND"
+merge "PHY_7/VGND" "FILLER_0_3_57/VGND"
+merge "FILLER_0_3_57/VGND" "FILLER_0_3_55/VGND"
+merge "FILLER_0_3_55/VGND" "_47_/VNB"
+merge "_47_/VNB" "_47_/VGND"
+merge "_47_/VGND" "FILLER_0_5_44/VNB"
+merge "FILLER_0_5_44/VNB" "FILLER_0_5_44/VGND"
+merge "FILLER_0_5_44/VGND" "_28_/VNB"
+merge "_28_/VNB" "_28_/VGND"
+merge "_28_/VGND" "FILLER_0_5_36/VNB"
+merge "FILLER_0_5_36/VNB" "FILLER_0_5_36/VGND"
+merge "FILLER_0_5_36/VGND" "_43_/VNB"
+merge "_43_/VNB" "hold4/VGND"
+merge "hold4/VGND" "_31_/VGND"
+merge "_31_/VGND" "_55_/VNB"
+merge "_55_/VNB" "_55_/VGND"
+merge "_55_/VGND" "_48_/VNB"
+merge "_48_/VNB" "_48_/VGND"
+merge "_48_/VGND" "TAP_27/VGND"
+merge "TAP_27/VGND" "FILLER_0_6_29/VNB"
+merge "FILLER_0_6_29/VNB" "FILLER_0_6_29/VGND"
+merge "FILLER_0_6_29/VGND" "FILLER_0_6_27/VNB"
+merge "FILLER_0_6_27/VNB" "FILLER_0_6_27/VGND"
+merge "FILLER_0_6_27/VGND" "clkbuf_0_clk/VNB"
+merge "clkbuf_0_clk/VNB" "clkbuf_0_clk/VGND"
+merge "clkbuf_0_clk/VGND" "_26_/VNB"
+merge "_26_/VNB" "_26_/VGND"
+merge "_26_/VGND" "TAP_25/VGND"
+merge "TAP_25/VGND" "FILLER_0_4_23/VNB"
+merge "FILLER_0_4_23/VNB" "FILLER_0_4_23/VGND"
+merge "FILLER_0_4_23/VGND" "_33_/VGND"
+merge "_33_/VGND" "_32_/VGND"
+merge "_32_/VGND" "_57_/VNB"
+merge "_57_/VNB" "_57_/VGND"
+merge "_57_/VGND" "clkbuf_1_1__f_clk/VNB"
+merge "clkbuf_1_1__f_clk/VNB" "clkbuf_1_1__f_clk/VGND"
+merge "clkbuf_1_1__f_clk/VGND" "FILLER_0_5_15/VNB"
+merge "FILLER_0_5_15/VNB" "FILLER_0_5_15/VGND"
+merge "FILLER_0_5_15/VGND" "FILLER_0_4_15/VNB"
+merge "FILLER_0_4_15/VNB" "FILLER_0_4_15/VGND"
+merge "FILLER_0_4_15/VGND" "hold1/VGND"
+merge "hold1/VGND" "_45_/VGND"
+merge "_45_/VGND" "_34_/VGND"
+merge "_34_/VGND" "_25_/VGND"
+merge "_25_/VGND" "PHY_12/VNB"
+merge "PHY_12/VNB" "PHY_12/VGND"
+merge "PHY_12/VGND" "FILLER_0_6_3/VNB"
+merge "FILLER_0_6_3/VNB" "FILLER_0_6_3/VGND"
+merge "FILLER_0_6_3/VGND" "PHY_10/VNB"
+merge "PHY_10/VNB" "PHY_10/VGND"
+merge "PHY_10/VGND" "FILLER_0_5_3/VNB"
+merge "FILLER_0_5_3/VNB" "FILLER_0_5_3/VGND"
+merge "FILLER_0_5_3/VGND" "PHY_8/VNB"
+merge "PHY_8/VNB" "PHY_8/VGND"
+merge "PHY_8/VGND" "FILLER_0_4_3/VNB"
+merge "FILLER_0_4_3/VNB" "FILLER_0_4_3/VGND"
+merge "FILLER_0_4_3/VGND" "output5/VGND"
+merge "output5/VGND" "PHY_6/VGND"
+merge "PHY_6/VGND" "TAP_24/VGND"
+merge "TAP_24/VGND" "PHY_7/VNB"
+merge "PHY_7/VNB" "FILLER_0_3_57/VNB"
+merge "FILLER_0_3_57/VNB" "FILLER_0_3_55/VNB"
+merge "FILLER_0_3_55/VNB" "PHY_5/VNB"
+merge "PHY_5/VNB" "PHY_5/VGND"
+merge "PHY_5/VGND" "PHY_3/VGND"
+merge "PHY_3/VGND" "FILLER_0_1_57/VGND"
+merge "FILLER_0_1_57/VGND" "FILLER_0_1_52/VGND"
+merge "FILLER_0_1_52/VGND" "hold4/VNB"
+merge "hold4/VNB" "_31_/VNB"
+merge "_31_/VNB" "_52_/VNB"
+merge "_52_/VNB" "_52_/VGND"
+merge "_52_/VGND" "_33_/VNB"
+merge "_33_/VNB" "_32_/VNB"
+merge "_32_/VNB" "_30_/VNB"
+merge "_30_/VNB" "_30_/VGND"
+merge "_30_/VGND" "TAP_23/VGND"
+merge "TAP_23/VGND" "FILLER_0_2_29/VNB"
+merge "FILLER_0_2_29/VNB" "FILLER_0_2_29/VGND"
+merge "FILLER_0_2_29/VGND" "FILLER_0_2_25/VNB"
+merge "FILLER_0_2_25/VNB" "FILLER_0_2_25/VGND"
+merge "FILLER_0_2_25/VGND" "_51_/VGND"
+merge "_51_/VGND" "FILLER_0_1_28/VGND"
+merge "FILLER_0_1_28/VGND" "hold1/VNB"
+merge "hold1/VNB" "_45_/VNB"
+merge "_45_/VNB" "_34_/VNB"
+merge "_34_/VNB" "_25_/VNB"
+merge "_25_/VNB" "_50_/VNB"
+merge "_50_/VNB" "_50_/VGND"
+merge "_50_/VGND" "_53_/VGND"
+merge "_53_/VGND" "_42_/VGND"
+merge "_42_/VGND" "output5/VNB"
+merge "output5/VNB" "PHY_6/VNB"
+merge "PHY_6/VNB" "PHY_4/VNB"
+merge "PHY_4/VNB" "PHY_4/VGND"
+merge "PHY_4/VGND" "FILLER_0_2_3/VNB"
+merge "FILLER_0_2_3/VNB" "FILLER_0_2_3/VGND"
+merge "FILLER_0_2_3/VGND" "PHY_2/VGND"
+merge "PHY_2/VGND" "FILLER_0_1_3/VGND"
+merge "FILLER_0_1_3/VGND" "input1/VNB"
+merge "input1/VNB" "input1/VGND"
+merge "input1/VGND" "TAP_22/VGND"
+merge "TAP_22/VGND" "TAP_21/VGND"
+merge "TAP_21/VGND" "PHY_3/VNB"
+merge "PHY_3/VNB" "PHY_1/VNB"
+merge "PHY_1/VNB" "PHY_1/VGND"
+merge "PHY_1/VGND" "FILLER_0_1_57/VNB"
+merge "FILLER_0_1_57/VNB" "FILLER_0_1_52/VNB"
+merge "FILLER_0_1_52/VNB" "FILLER_0_0_57/VNB"
+merge "FILLER_0_0_57/VNB" "FILLER_0_0_57/VGND"
+merge "FILLER_0_0_57/VGND" "output4/VNB"
+merge "output4/VNB" "output4/VGND"
+merge "output4/VGND" "output2/VNB"
+merge "output2/VNB" "output2/VGND"
+merge "output2/VGND" "_29_/VNB"
+merge "_29_/VNB" "_29_/VGND"
+merge "_29_/VGND" "output7/VNB"
+merge "output7/VNB" "output7/VGND"
+merge "output7/VGND" "_51_/VNB"
+merge "_51_/VNB" "TAP_20/VGND"
+merge "TAP_20/VGND" "clkbuf_1_0__f_clk/VGND"
+merge "clkbuf_1_0__f_clk/VGND" "_27_/VGND"
+merge "_27_/VGND" "PHY_0/VGND"
+merge "PHY_0/VGND" "VGND"
+merge "VGND" "FILLER_0_1_28/VNB"
+merge "FILLER_0_1_28/VNB" "clkbuf_1_0__f_clk/VNB"
+merge "clkbuf_1_0__f_clk/VNB" "_53_/VNB"
+merge "_53_/VNB" "_42_/VNB"
+merge "_42_/VNB" "_27_/VNB"
+merge "_27_/VNB" "PHY_2/VNB"
+merge "PHY_2/VNB" "PHY_0/VNB"
+merge "PHY_0/VNB" "FILLER_0_1_3/VNB"
+merge "FILLER_0_1_3/VNB" "VSUBS"
+merge "TAP_31/VPWR" "PHY_19/VPWR" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "PHY_19/VPWR" "PHY_19/VPB"
+merge "PHY_19/VPB" "FILLER_0_9_57/VPWR"
+merge "FILLER_0_9_57/VPWR" "FILLER_0_9_57/VPB"
+merge "FILLER_0_9_57/VPB" "_46_/VPWR"
+merge "_46_/VPWR" "PHY_17/VPWR"
+merge "PHY_17/VPWR" "FILLER_0_8_56/VPWR"
+merge "FILLER_0_8_56/VPWR" "_37_/VPWR"
+merge "_37_/VPWR" "_37_/VPB"
+merge "_37_/VPB" "FILLER_0_9_48/VPWR"
+merge "FILLER_0_9_48/VPWR" "FILLER_0_9_48/VPB"
+merge "FILLER_0_9_48/VPB" "output3/VPWR"
+merge "output3/VPWR" "output3/VPB"
+merge "output3/VPB" "hold5/VPWR"
+merge "hold5/VPWR" "FILLER_0_8_44/VPWR"
+merge "FILLER_0_8_44/VPWR" "_35_/VPWR"
+merge "_35_/VPWR" "_38_/VPWR"
+merge "_38_/VPWR" "_38_/VPB"
+merge "_38_/VPB" "TAP_30/VPWR"
+merge "TAP_30/VPWR" "FILLER_0_9_32/VPWR"
+merge "FILLER_0_9_32/VPWR" "FILLER_0_9_32/VPB"
+merge "FILLER_0_9_32/VPB" "FILLER_0_9_27/VPWR"
+merge "FILLER_0_9_27/VPWR" "FILLER_0_9_27/VPB"
+merge "FILLER_0_9_27/VPB" "FILLER_0_9_19/VPWR"
+merge "FILLER_0_9_19/VPWR" "FILLER_0_9_19/VPB"
+merge "FILLER_0_9_19/VPB" "hold3/VPWR"
+merge "hold3/VPWR" "_40_/VPWR"
+merge "_40_/VPWR" "output9/VPB"
+merge "output9/VPB" "output8/VPB"
+merge "output8/VPB" "PHY_18/VPB"
+merge "PHY_18/VPB" "FILLER_0_9_3/VPB"
+merge "FILLER_0_9_3/VPB" "hold5/VPB"
+merge "hold5/VPB" "_46_/VPB"
+merge "_46_/VPB" "PHY_17/VPB"
+merge "PHY_17/VPB" "FILLER_0_8_56/VPB"
+merge "FILLER_0_8_56/VPB" "FILLER_0_8_44/VPB"
+merge "FILLER_0_8_44/VPB" "hold3/VPB"
+merge "hold3/VPB" "_35_/VPB"
+merge "_35_/VPB" "_40_/VPB"
+merge "_40_/VPB" "TAP_29/VPWR"
+merge "TAP_29/VPWR" "_49_/VPB"
+merge "_49_/VPB" "_41_/VPB"
+merge "_41_/VPB" "_39_/VPB"
+merge "_39_/VPB" "PHY_16/VPB"
+merge "PHY_16/VPB" "FILLER_0_8_3/VPB"
+merge "FILLER_0_8_3/VPB" "output9/VPWR"
+merge "output9/VPWR" "output8/VPWR"
+merge "output8/VPWR" "_49_/VPWR"
+merge "_49_/VPWR" "_41_/VPWR"
+merge "_41_/VPWR" "_39_/VPWR"
+merge "_39_/VPWR" "PHY_18/VPWR"
+merge "PHY_18/VPWR" "FILLER_0_9_3/VPWR"
+merge "FILLER_0_9_3/VPWR" "PHY_16/VPWR"
+merge "PHY_16/VPWR" "FILLER_0_8_3/VPWR"
+merge "FILLER_0_8_3/VPWR" "hold6/VPWR"
+merge "hold6/VPWR" "hold6/VPB"
+merge "hold6/VPB" "TAP_28/VPWR"
+merge "TAP_28/VPWR" "PHY_15/VPB"
+merge "PHY_15/VPB" "PHY_13/VPB"
+merge "PHY_13/VPB" "FILLER_0_7_57/VPB"
+merge "FILLER_0_7_57/VPB" "PHY_15/VPWR"
+merge "PHY_15/VPWR" "PHY_13/VPWR"
+merge "PHY_13/VPWR" "FILLER_0_7_57/VPWR"
+merge "FILLER_0_7_57/VPWR" "_54_/VPWR"
+merge "_54_/VPWR" "_54_/VPB"
+merge "_54_/VPB" "_55_/VPWR"
+merge "_55_/VPWR" "_55_/VPB"
+merge "_55_/VPB" "_48_/VPWR"
+merge "_48_/VPWR" "_48_/VPB"
+merge "_48_/VPB" "_36_/VPWR"
+merge "_36_/VPWR" "_36_/VPB"
+merge "_36_/VPB" "TAP_27/VPWR"
+merge "TAP_27/VPWR" "FILLER_0_6_29/VPB"
+merge "FILLER_0_6_29/VPB" "FILLER_0_6_27/VPB"
+merge "FILLER_0_6_27/VPB" "_57_/VPB"
+merge "_57_/VPB" "_56_/VPB"
+merge "_56_/VPB" "hold2/VPB"
+merge "hold2/VPB" "PHY_14/VPB"
+merge "PHY_14/VPB" "PHY_12/VPB"
+merge "PHY_12/VPB" "FILLER_0_6_3/VPB"
+merge "FILLER_0_6_3/VPB" "FILLER_0_6_29/VPWR"
+merge "FILLER_0_6_29/VPWR" "FILLER_0_6_27/VPWR"
+merge "FILLER_0_6_27/VPWR" "_57_/VPWR"
+merge "_57_/VPWR" "_56_/VPWR"
+merge "_56_/VPWR" "hold2/VPWR"
+merge "hold2/VPWR" "PHY_14/VPWR"
+merge "PHY_14/VPWR" "PHY_12/VPWR"
+merge "PHY_12/VPWR" "FILLER_0_6_3/VPWR"
+merge "FILLER_0_6_3/VPWR" "output6/VPWR"
+merge "output6/VPWR" "output6/VPB"
+merge "output6/VPB" "TAP_26/VPWR"
+merge "TAP_26/VPWR" "PHY_11/VPWR"
+merge "PHY_11/VPWR" "PHY_11/VPB"
+merge "PHY_11/VPB" "FILLER_0_5_57/VPWR"
+merge "FILLER_0_5_57/VPWR" "FILLER_0_5_57/VPB"
+merge "FILLER_0_5_57/VPB" "_44_/VPWR"
+merge "_44_/VPWR" "_44_/VPB"
+merge "_44_/VPB" "PHY_9/VPB"
+merge "PHY_9/VPB" "FILLER_0_4_55/VPB"
+merge "FILLER_0_4_55/VPB" "_43_/VPWR"
+merge "_43_/VPWR" "PHY_9/VPWR"
+merge "PHY_9/VPWR" "FILLER_0_4_55/VPWR"
+merge "FILLER_0_4_55/VPWR" "_47_/VPWR"
+merge "_47_/VPWR" "_47_/VPB"
+merge "_47_/VPB" "FILLER_0_5_44/VPWR"
+merge "FILLER_0_5_44/VPWR" "FILLER_0_5_44/VPB"
+merge "FILLER_0_5_44/VPB" "_28_/VPWR"
+merge "_28_/VPWR" "_28_/VPB"
+merge "_28_/VPB" "FILLER_0_5_36/VPWR"
+merge "FILLER_0_5_36/VPWR" "FILLER_0_5_36/VPB"
+merge "FILLER_0_5_36/VPB" "_43_/VPB"
+merge "_43_/VPB" "clkbuf_0_clk/VPWR"
+merge "clkbuf_0_clk/VPWR" "clkbuf_0_clk/VPB"
+merge "clkbuf_0_clk/VPB" "_26_/VPWR"
+merge "_26_/VPWR" "_26_/VPB"
+merge "_26_/VPB" "FILLER_0_4_23/VPB"
+merge "FILLER_0_4_23/VPB" "clkbuf_1_1__f_clk/VPB"
+merge "clkbuf_1_1__f_clk/VPB" "FILLER_0_5_15/VPB"
+merge "FILLER_0_5_15/VPB" "PHY_10/VPB"
+merge "PHY_10/VPB" "FILLER_0_4_15/VPB"
+merge "FILLER_0_4_15/VPB" "FILLER_0_5_3/VPB"
+merge "FILLER_0_5_3/VPB" "PHY_8/VPB"
+merge "PHY_8/VPB" "FILLER_0_4_3/VPB"
+merge "FILLER_0_4_3/VPB" "TAP_25/VPWR"
+merge "TAP_25/VPWR" "FILLER_0_4_23/VPWR"
+merge "FILLER_0_4_23/VPWR" "clkbuf_1_1__f_clk/VPWR"
+merge "clkbuf_1_1__f_clk/VPWR" "FILLER_0_5_15/VPWR"
+merge "FILLER_0_5_15/VPWR" "FILLER_0_4_15/VPWR"
+merge "FILLER_0_4_15/VPWR" "PHY_10/VPWR"
+merge "PHY_10/VPWR" "FILLER_0_5_3/VPWR"
+merge "FILLER_0_5_3/VPWR" "PHY_8/VPWR"
+merge "PHY_8/VPWR" "FILLER_0_4_3/VPWR"
+merge "FILLER_0_4_3/VPWR" "TAP_24/VPWR"
+merge "TAP_24/VPWR" "PHY_7/VPWR"
+merge "PHY_7/VPWR" "PHY_7/VPB"
+merge "PHY_7/VPB" "FILLER_0_3_57/VPWR"
+merge "FILLER_0_3_57/VPWR" "FILLER_0_3_57/VPB"
+merge "FILLER_0_3_57/VPB" "FILLER_0_3_55/VPWR"
+merge "FILLER_0_3_55/VPWR" "FILLER_0_3_55/VPB"
+merge "FILLER_0_3_55/VPB" "PHY_5/VPWR"
+merge "PHY_5/VPWR" "PHY_5/VPB"
+merge "PHY_5/VPB" "hold4/VPWR"
+merge "hold4/VPWR" "hold4/VPB"
+merge "hold4/VPB" "_31_/VPWR"
+merge "_31_/VPWR" "_31_/VPB"
+merge "_31_/VPB" "_52_/VPWR"
+merge "_52_/VPWR" "_52_/VPB"
+merge "_52_/VPB" "_33_/VPWR"
+merge "_33_/VPWR" "_33_/VPB"
+merge "_33_/VPB" "_32_/VPWR"
+merge "_32_/VPWR" "_32_/VPB"
+merge "_32_/VPB" "_30_/VPWR"
+merge "_30_/VPWR" "_30_/VPB"
+merge "_30_/VPB" "TAP_23/VPWR"
+merge "TAP_23/VPWR" "FILLER_0_2_29/VPB"
+merge "FILLER_0_2_29/VPB" "FILLER_0_2_25/VPB"
+merge "FILLER_0_2_25/VPB" "hold1/VPB"
+merge "hold1/VPB" "_45_/VPB"
+merge "_45_/VPB" "_34_/VPB"
+merge "_34_/VPB" "_25_/VPB"
+merge "_25_/VPB" "_50_/VPB"
+merge "_50_/VPB" "output5/VPB"
+merge "output5/VPB" "PHY_6/VPB"
+merge "PHY_6/VPB" "PHY_4/VPB"
+merge "PHY_4/VPB" "FILLER_0_2_3/VPB"
+merge "FILLER_0_2_3/VPB" "FILLER_0_2_29/VPWR"
+merge "FILLER_0_2_29/VPWR" "FILLER_0_2_25/VPWR"
+merge "FILLER_0_2_25/VPWR" "hold1/VPWR"
+merge "hold1/VPWR" "_45_/VPWR"
+merge "_45_/VPWR" "_34_/VPWR"
+merge "_34_/VPWR" "_25_/VPWR"
+merge "_25_/VPWR" "_50_/VPWR"
+merge "_50_/VPWR" "output5/VPWR"
+merge "output5/VPWR" "PHY_6/VPWR"
+merge "PHY_6/VPWR" "PHY_4/VPWR"
+merge "PHY_4/VPWR" "FILLER_0_2_3/VPWR"
+merge "FILLER_0_2_3/VPWR" "input1/VPWR"
+merge "input1/VPWR" "input1/VPB"
+merge "input1/VPB" "TAP_22/VPWR"
+merge "TAP_22/VPWR" "TAP_21/VPWR"
+merge "TAP_21/VPWR" "PHY_3/VPB"
+merge "PHY_3/VPB" "PHY_1/VPB"
+merge "PHY_1/VPB" "FILLER_0_1_57/VPB"
+merge "FILLER_0_1_57/VPB" "FILLER_0_0_57/VPB"
+merge "FILLER_0_0_57/VPB" "PHY_3/VPWR"
+merge "PHY_3/VPWR" "PHY_1/VPWR"
+merge "PHY_1/VPWR" "FILLER_0_1_57/VPWR"
+merge "FILLER_0_1_57/VPWR" "FILLER_0_1_52/VPWR"
+merge "FILLER_0_1_52/VPWR" "FILLER_0_1_52/VPB"
+merge "FILLER_0_1_52/VPB" "FILLER_0_0_57/VPWR"
+merge "FILLER_0_0_57/VPWR" "output4/VPWR"
+merge "output4/VPWR" "output4/VPB"
+merge "output4/VPB" "output2/VPWR"
+merge "output2/VPWR" "output2/VPB"
+merge "output2/VPB" "_29_/VPWR"
+merge "_29_/VPWR" "_29_/VPB"
+merge "_29_/VPB" "output7/VPWR"
+merge "output7/VPWR" "output7/VPB"
+merge "output7/VPB" "_51_/VPWR"
+merge "_51_/VPWR" "_51_/VPB"
+merge "_51_/VPB" "TAP_20/VPWR"
+merge "TAP_20/VPWR" "FILLER_0_1_28/VPB"
+merge "FILLER_0_1_28/VPB" "clkbuf_1_0__f_clk/VPB"
+merge "clkbuf_1_0__f_clk/VPB" "_53_/VPB"
+merge "_53_/VPB" "_42_/VPB"
+merge "_42_/VPB" "_27_/VPB"
+merge "_27_/VPB" "PHY_2/VPB"
+merge "PHY_2/VPB" "PHY_0/VPB"
+merge "PHY_0/VPB" "FILLER_0_1_3/VPB"
+merge "FILLER_0_1_3/VPB" "FILLER_0_1_28/VPWR"
+merge "FILLER_0_1_28/VPWR" "clkbuf_1_0__f_clk/VPWR"
+merge "clkbuf_1_0__f_clk/VPWR" "_53_/VPWR"
+merge "_53_/VPWR" "_42_/VPWR"
+merge "_42_/VPWR" "_27_/VPWR"
+merge "_27_/VPWR" "PHY_2/VPWR"
+merge "PHY_2/VPWR" "PHY_0/VPWR"
+merge "PHY_0/VPWR" "FILLER_0_1_3/VPWR"
+merge "FILLER_0_1_3/VPWR" "VPWR"
+merge "output8/A" "hold3/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hold3/A" "_40_/C"
+merge "_40_/C" "_56_/Q"
+merge "_56_/Q" "net8"
+merge "output4/X" "debug_out[2]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "output3/A" "_31_/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_31_/B" "_26_/B"
+merge "_26_/B" "_51_/Q"
+merge "_51_/Q" "_32_/A2"
+merge "_32_/A2" "_27_/B"
+merge "_27_/B" "net3"
+merge "_52_/CLK" "_51_/CLK" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_51_/CLK" "_50_/CLK"
+merge "_50_/CLK" "_53_/CLK"
+merge "_53_/CLK" "clkbuf_1_0__f_clk/X"
+merge "clkbuf_1_0__f_clk/X" "clknet_1_0__leaf_clk"
+merge "output6/X" "debug_out[4]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_54_/CLK" "_55_/CLK" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_55_/CLK" "_57_/CLK"
+merge "_57_/CLK" "_56_/CLK"
+merge "_56_/CLK" "clkbuf_1_1__f_clk/X"
+merge "clkbuf_1_1__f_clk/X" "clknet_1_1__leaf_clk"
+merge "output3/X" "debug_out[1]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "output2/X" "debug_out[0]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hold4/A" "_52_/Q" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_52_/Q" "_32_/A3"
+merge "_32_/A3" "_31_/C"
+merge "_31_/C" "output4/A"
+merge "output4/A" "net4"
+merge "clkbuf_1_1__f_clk/A" "clkbuf_0_clk/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "clkbuf_0_clk/X" "clkbuf_1_0__f_clk/A"
+merge "clkbuf_1_0__f_clk/A" "clknet_0_clk"
+merge "clkbuf_0_clk/A" "clk" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_37_/A2" "_35_/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_35_/B" "_40_/D"
+merge "_40_/D" "_36_/C"
+merge "_36_/C" "_31_/X"
+merge "_31_/X" "_33_/A_N"
+merge "_33_/A_N" "_19_"
+merge "_34_/X" "_53_/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_53_/D" "_03_"
+merge "_43_/Y" "_51_/RESET_B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_51_/RESET_B" "_09_"
+merge "_51_/D" "_29_/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_29_/X" "_01_"
+merge "hold4/X" "_30_/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_30_/A" "net13"
+merge "hold1/X" "_25_/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_25_/A" "net10"
+merge "_28_/A" "_26_/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_26_/Y" "_30_/B"
+merge "_30_/B" "_16_"
+merge "output9/A" "_57_/Q" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_57_/Q" "hold2/A"
+merge "hold2/A" "net9"
+merge "_37_/A1" "hold5/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hold5/X" "_35_/A"
+merge "_35_/A" "net14"
+merge "_41_/A" "hold2/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hold2/X" "net11"
+merge "hold5/A" "_54_/Q" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_54_/Q" "_36_/A"
+merge "_36_/A" "_40_/A"
+merge "_40_/A" "output6/A"
+merge "output6/A" "net6"
+merge "_50_/RESET_B" "_42_/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_42_/Y" "_08_"
+merge "_37_/Y" "_38_/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_38_/B" "_23_"
+merge "_33_/B" "_32_/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_32_/X" "_20_"
+merge "_28_/B" "_27_/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_27_/X" "_17_"
+merge "_46_/A" "_49_/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_49_/A" "_48_/A"
+merge "_48_/A" "_47_/A"
+merge "_47_/A" "_44_/A"
+merge "_44_/A" "_43_/A"
+merge "_43_/A" "_45_/A"
+merge "_45_/A" "_42_/A"
+merge "_42_/A" "input1/X"
+merge "input1/X" "net1"
+merge "hold3/X" "_39_/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_39_/A" "net12"
+merge "_45_/Y" "_53_/RESET_B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_53_/RESET_B" "_11_"
+merge "_40_/X" "_41_/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_41_/B" "_24_"
+merge "hold6/A" "_40_/B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_40_/B" "_36_/B"
+merge "_36_/B" "_55_/Q"
+merge "_55_/Q" "output7/A"
+merge "output7/A" "net7"
+merge "_48_/Y" "_56_/RESET_B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_56_/RESET_B" "_14_"
+merge "_37_/B1" "hold6/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hold6/X" "net15"
+merge "_38_/A" "_36_/X" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_36_/X" "_39_/B"
+merge "_39_/B" "_22_"
+merge "_46_/Y" "_54_/RESET_B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_54_/RESET_B" "_12_"
+merge "_41_/X" "_57_/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_57_/D" "_07_"
+merge "_39_/X" "_56_/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_56_/D" "_06_"
+merge "_52_/D" "_30_/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_30_/Y" "_02_"
+merge "_38_/Y" "_55_/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_55_/D" "_05_"
+merge "_33_/X" "_34_/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_34_/A" "_21_"
+merge "_35_/X" "_54_/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_54_/D" "_04_"
+merge "_49_/Y" "_57_/RESET_B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_57_/RESET_B" "_15_"
+merge "output9/X" "debug_out[7]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_25_/Y" "_50_/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_50_/D" "_00_"
+merge "_26_/A" "_32_/A1" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_32_/A1" "_31_/A"
+merge "_31_/A" "hold1/A"
+merge "hold1/A" "_50_/Q"
+merge "_50_/Q" "output2/A"
+merge "output2/A" "_27_/A"
+merge "_27_/A" "net2"
+merge "output7/X" "debug_out[5]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_28_/X" "_29_/A" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_29_/A" "_18_"
+merge "_32_/B1" "_31_/D" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_31_/D" "_53_/Q"
+merge "_53_/Q" "output5/A"
+merge "output5/A" "net5"
+merge "output5/X" "debug_out[3]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "input1/A" "rst" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_55_/RESET_B" "_47_/Y" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_47_/Y" "_13_"
+merge "_44_/Y" "_52_/RESET_B" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_52_/RESET_B" "_10_"
+merge "output8/X" "debug_out[6]" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

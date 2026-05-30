@@ -1,0 +1,6 @@
+%Warning-UNUSEDSIGNAL: /openlane/designs/noc_router/src/noc_top.v:8:12: Signal is not used: 'port'
+                                                                      : ... In instance noc_top
+    8 | wire [1:0] port;
+      |            ^~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=5.009
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
